@@ -25,7 +25,7 @@ private:
     Ui::SoftKeyBoardDlg *ui;
 
     QList<QString> lInputT9Values;
-    T9PY_IDX* mT9PyChinese[];
+    T9PY_IDX* mT9PyChinese[6];
     QButtonGroup* mKeyButtonGroup;
     QButtonGroup* mPyButtonGroup;
     QButtonGroup* mDigitKeyButtonGroup;
